@@ -1,8 +1,13 @@
 import java.io.*;
 class student
 {
+public void Name()
+{
+System.out.println("name : varun");
+}
 public static void main(String args[])
 {
-System.out.println("varun");
+student s = new student();
+s.Name();
 }
 }
