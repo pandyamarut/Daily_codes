@@ -8,7 +8,7 @@ class Factorial {
     }
 
     public static void main(String[] args) {
-        int number = 6, result;
+        int number = 7, result;
         result = factorial(number);
         System.out.println(number + " factorial = " + result);
     }
